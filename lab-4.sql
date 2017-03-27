@@ -1,5 +1,5 @@
-0.
-INSERT INTO client VALUES (NULL, 'Василий', 'Птичкин');
+п»ї0.
+INSERT INTO client VALUES (NULL, 'Р’Р°СЃРёР»РёР№', 'РџС‚РёС‡РєРёРЅ');
 
 1.
 INSERT INTO phone (phone, id_client, id_mobile_company) VALUES ('9340098123', 1, 1);
@@ -23,7 +23,7 @@ UPDATE phone SET id_mobile_company = 1;
 UPDATE phone SET id_mobile_company = 2 WHERE id_client = 3;
 
 8.
-UPDATE type_of_service SET name = 'безлимитный интернет', price = 300 WHERE id_service = 1;
+UPDATE type_of_service SET name = 'Р±РµР·Р»РёРјРёС‚РЅС‹Р№ РёРЅС‚РµСЂРЅРµС‚', price = 300 WHERE id_service = 1;
 
 9.
 SELECT price, name FROM type_of_service;
